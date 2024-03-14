@@ -6,7 +6,7 @@ const e = require('express');
 const app = express();
 const PORT = 3000;
 
-const apiKey = 'd9e2ba45bb4d864b332326404316f3f3';
+const apiKey = 'YOUR_API_KEY';
 const link = 'https://api.openweathermap.org/data/2.5/weather?q=';
 const ORION_URL = "http://localhost:1026/ngsi-ld/v1/entities";
 const NGSI_LD_CONTEXT = "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
